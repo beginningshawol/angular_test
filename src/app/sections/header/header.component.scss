@@ -1,0 +1,17 @@
+ul li {
+    list-style: none;
+}
+
+.buttons {
+    margin-left: auto;
+}
+
+.buttons-list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.buttons-list-item {
+    margin-right: 20px;
+}
