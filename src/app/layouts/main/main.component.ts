@@ -6,11 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./main.component.scss']
 })
 export class MainComponent {
-  sideBarOpen = true;
 
-  sideBarToggler() {
-    this.sideBarOpen = !this.sideBarOpen;
-  
-  }
-  
 }

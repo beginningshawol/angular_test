@@ -6,8 +6,6 @@ import { RouterModule } from '@angular/router';
 import { SectionsModule } from 'src/app/sections/sections.module';
 import { PostsComponent } from 'src/app/pages/posts/posts.component';
 import { MatSidenavModule } from '@angular/material/sidenav'
-import { MatDividerModule } from '@angular/material/divider'
-import { WidgetsModule } from 'src/app/widgets/widgets.module';
 
 @NgModule({
   declarations: [
@@ -19,9 +17,7 @@ import { WidgetsModule } from 'src/app/widgets/widgets.module';
     CommonModule,
     RouterModule,
     SectionsModule,
-    MatSidenavModule,
-    MatDividerModule,
-    WidgetsModule
+    MatSidenavModule
   ]
 })
 export class MainModule { }
