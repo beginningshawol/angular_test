@@ -3,7 +3,7 @@ import { Movie } from "./data.interface";
 export class DataService{
     private movies: Movie[] = [];
 
-    getData() {
+    getMovies() {
         return this.movies;
     }
 
